@@ -75,7 +75,6 @@ while replay == "Y":
         available_places = 0
         for row in range(0, 3):
             for column in range(0, 3):
-                #  print(board[row][column])
                 if board[row][column] == " ":
                     available_places += 1
         if available_places >= 1:
